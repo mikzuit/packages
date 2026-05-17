@@ -23,7 +23,7 @@ case ${arch} in
     ;;
 esac
 
-url="https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/"
+url="https://github.com/mikzuit/packages/raw/master/"
 
 version=6
 echo "OMV ${version}"
