@@ -25,7 +25,7 @@ esac
 
 url="https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/"
 
-version=$(dpkg -l openmediavault | awk '$2 == "openmediavault" { print substr($3,1,1) }')
+version=6
 echo "OMV ${version}"
 
 codename="$(lsb_release --codename --short)"
